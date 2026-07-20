@@ -788,7 +788,7 @@ function triggerReveal() {
 
 /* ══ COUNTDOWN ══ */
 function startCountdown() {
-  const target = new Date('2026-12-13T15:00:00+08:00');
+  const target = new Date('2026-08-02T15:00:00+08:00');
   function update() {
     const diff = target - new Date();
     if (diff <= 0) { ['cdMonths','cdDays','cdHours','cdMins'].forEach(id => document.getElementById(id).textContent = '0'); return; }
