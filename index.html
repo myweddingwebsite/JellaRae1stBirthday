@@ -395,18 +395,6 @@ body{
 .heart-swatch::after{top:0;left:25px}
 @media(min-width:768px){.palette{grid-template-columns:repeat(5,1fr);gap:40px;max-width:600px;margin:30px auto 0}}
 
-/* ══ GIFT ══ */
-#gift{background:linear-gradient(135deg,rgba(254,244,248,.85) 0%,rgba(244,240,255,.85) 50%,rgba(238,248,244,.85) 100%);position:relative}
-.gift-inner{max-width:640px;margin:0 auto;text-align:center}
-.gift-quote{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(17px,2.8vw,21px);color:var(--text-mid);line-height:1.85;margin:24px 0 36px;font-weight:400}
-.qr-box{display:inline-block;background:var(--white);border:2px solid rgba(168,132,44,.25);border-radius:20px;padding:32px;box-shadow:0 12px 40px rgba(200,180,160,.12);text-align:center}
-.qr-placeholder{width:160px;height:160px;background:linear-gradient(135deg,var(--lavender-light),var(--blush-light));border-radius:12px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-family:'Jost',sans-serif;font-size:11px;letter-spacing:2px;color:var(--text-light);text-align:center;padding:12px;border:2px dashed rgba(168,132,44,.3);font-weight:500; position:relative; left:0;  right:0;}
-.qr-note{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:14px;color:var(--text-light)}
-.qr-row{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin-top:8px}
-.qr-row .qr-box{flex:0 0 auto;width:min(200px,42vw)}
-.qr-img{width:160px;height:160px;object-fit:cover;border-radius:12px;display:block;margin:0 auto 12px;margin-left:-8px}
-.qr-label{font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--text-dark);margin-bottom:4px}
-@media(max-width:480px){.qr-row{gap:16px}.qr-row .qr-box{width:min(160px,44vw)}.qr-img{width:130px;height:130px}}
 
 /* ══ REMINDERS ══ */
 #reminders{background:rgba(253,250,245,.85);position:relative}
@@ -520,7 +508,6 @@ footer{background:linear-gradient(160deg,rgba(253,232,236,.85) 0%,rgba(238,228,2
   <ul class="nav-links" id="navLinks">
     <li><a href="#details">Reception</a></li>
     <li><a href="#attire">Attire</a></li>
-    <li><a href="#gift">Gifts</a></li>
     <li><a href="#rsvp">RSVP</a></li>
   </ul>
 </nav>
@@ -602,31 +589,6 @@ footer{background:linear-gradient(160deg,rgba(253,232,236,.85) 0%,rgba(238,228,2
           <div class="heart-swatch" style="background:#C9B0D8"></div>
           <div class="heart-swatch" style="background:#FFB6A3"></div>
           <div class="heart-swatch" style="background:#BDD9F0"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- GIFT -->
-<section id="gift" class="section">
-  <div class="container">
-    <div class="gift-inner reveal">
-      <p class="section-label">With Grateful Hearts</p>
-      <h2 class="section-title">Gift Guide</h2>
-      <div class="divider"><span>🦋</span></div>
-      <p class="gift-quote">
-       With all that we have, we’ve been truly blessed. Your prayers and presence are the most precious thing you can give.<br><br>
-       But if you desire to give nonetheless Monetary gift for Jella’s savings is much appreciated.<br><br>
-      Just because we gave an idea doesn’t mean you are obligated to give.<br><br>
-        Love, Prayer and your presence are the most precious you can give.
-      </p>
-      <div class="qr-row">
-        <div class="qr-box">
-          <img src="https://ik.imagekit.io/jcsquo5nq/Jella%20Rae/QR%20Code.png" alt="ADCB QR Code" class="qr-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="qr-placeholder" style="display:none">ADCB QR</div>
-          <p class="qr-label">ADCB</p>
-          <p class="qr-note">Scan to send your blessings 🦋</p>
         </div>
       </div>
     </div>
